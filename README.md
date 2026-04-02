@@ -1,4 +1,4 @@
-💻 Título do Seu Projeto (Ex: Simulador XPTO)
+💻 FitTrack - Saúde em Dia
 Este é um projeto desenvolvido para a avaliação somatica de Front-End, com o interesse na construção de um website que auxiliará pessoas com objetivos de vida de regular sua saúde, proporcionando formas de controle de meta de consumo de água, registro de alimentação e recursos de motivação diária para pessoas que desejam melhorar sua saúde física por meio da alimentação e hidratação.
 
 🛠️ Tecnologias Utilizadas
