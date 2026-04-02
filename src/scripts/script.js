@@ -10,3 +10,14 @@ if (hora < 12 && hora > 5) {
 } if (hora > 18) {
     saudacao.textContent = 'Descanso noturno merecido!'
 }
+
+
+/* MISSÃO 2: BANNER MOTIVACIONAL (EVENTOS DE MOUSE) */
+const foco = document.getElementById('banner-foco')
+foco.addEventListener('mouseover', function() {
+    foco.classList.add('foco-total')
+})
+
+foco.addEventListener('mouseout', function() {
+    foco.classList.remove()
+})
