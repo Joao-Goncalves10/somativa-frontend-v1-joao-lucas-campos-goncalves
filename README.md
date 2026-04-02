@@ -1,5 +1,5 @@
 💻 Título do Seu Projeto (Ex: Simulador XPTO)
-Breve descrição do que o seu projeto faz. (Ex: Este é um projeto desenvolvido para a avaliação de Front-End, focado em criar interatividade para uma loja/app de [Tema]).
+Este é um projeto desenvolvido para a avaliação somatica de Front-End, com o interesse na construção de um website que auxiliará pessoas com objetivos de vida de regular sua saúde, proporcionando formas de controle de meta de consumo de água, registro de alimentação e recursos de motivação diária para pessoas que desejam melhorar sua saúde física por meio da alimentação e hidratação.
 
 🛠️ Tecnologias Utilizadas
 HTML5 (Semântica e Acessibilidade)
@@ -14,10 +14,9 @@ O projeto foi organizado seguindo boas práticas de mercado:
     └── images/ (Ativos visuais)
 
 🚀 Funcionalidades Implementadas
-
 Interatividade Visual: Elementos que reagem ao passar do mouse (Hover e manipulação de Classes).
 Saudação Dinâmica: Mensagem de boas-vindas que muda conforme o horário local do usuário.
 Cálculo em Tempo Real: Formulário que processa e exibe resultados assim que o usuário digita.
 Injeção de Conteúdo: Adição de novos itens na tela utilizando manipulação de DOM.
 👨‍💻 Autor
-[João Lucas de Campos Gonçalves] [Seu LinkedIn ou GitHub]
+[João Lucas de Campos Gonçalves] [https://github.com/Joao-Goncalves10]
