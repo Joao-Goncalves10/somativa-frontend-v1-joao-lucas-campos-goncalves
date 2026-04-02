@@ -1,5 +1,4 @@
 /* MISSÃO 1: RECEPÇÃO DO ATLETA (DATE E CONDICIONAIS) */
-
 const agora = new Date()
 const hora = agora.getHours()
 const saudacao = document.getElementById('saudacao-atleta')

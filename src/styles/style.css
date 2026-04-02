@@ -97,34 +97,30 @@ input {
   background-color: #b71c1c;
 }
 
-/* =========================================
+/* =============================================
    CLASSES QUE VOCÊ DEVE DESCOMENTAR E COMPLETAR
-   ========================================= */
+   ============================================= */
 
 /* Missão 2: Estilo para quando o mouse entra no banner (.foco-total) */
 /* Dica: Altere a cor de fundo para #00cec9 e a cor do texto para branco (#ffffff). A transformação de escala eu já fiz! */
 
-/*
 .foco-total {
-    
-    
+    background-color: #00cec9;
+    color: #ffffff;
     transform: scale(1.03);
 }
 .foco-total h2 {
     color: white;
     border-color: white;
 }
-*/
 
 /* Missão 4: Estilo do card de refeição (.card-refeicao) */
 /* Dica: Adicione uma linha de borda de 2px solid #0984e3, um espaçamento interno de 15px, um arredondamento de bordas de 8px e cor de fundo branca (#fff) */
 
-/*
 .card-refeicao {
     margin-bottom: 10px;
-    
-    
-    
-    
+    border: 2px solid #0984e3;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #ffffff;
 }
-*/
