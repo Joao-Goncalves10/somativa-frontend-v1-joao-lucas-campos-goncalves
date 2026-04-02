@@ -19,7 +19,7 @@ foco.addEventListener('mouseover', function() {
 })
 
 foco.addEventListener('mouseout', function() {
-    foco.classList.remove()
+    foco.classList.remove('foco-total')
 })
 
 
@@ -29,5 +29,24 @@ const metaAgua = document.getElementById('meta-agua')
 pesoAluno.addEventListener('input', () => {
     const valor = Number(pesoAluno.value) * 35
 
-    metaAgua.textContent = `Sua meta diária de água é de:${valor.toFixed(2)}ml por dia!`
+    metaAgua.textContent = `Sua meta diária de água é de ${valor}ml por dia!`
+})
+
+
+// MISSÃO 4: O DIÁRIO DE REFEIÇÕES (CLICK COM EMOJIS) //
+const btnRegistrar = document.getElementById('btn-registrar')
+const nomeRefeicao = document.getElementById('nome-refeicao')
+const listaRefeicoes = document.getElementById('lista-refeicoes')
+
+btnRegistrar.addEventListener('click', function() {
+    listaRefeicoes.innerHTML = `🍽️Prato: ${nomeRefeicao}`
+    listaRefeicoes.classList.add('card-refeicao')
+})
+
+
+// MISSÃO 5: DIA DE JEJUM (LIMPEZA COM AVISO VISUAL) //
+const btnZerar = document.getElementById('btn-zerar')
+btnZerar.addEventListener('click', function() {
+    listaRefeicoes.textContent = ''
+    window.alert('Diário reiniciado com sucesso para amanhã!')
 })
